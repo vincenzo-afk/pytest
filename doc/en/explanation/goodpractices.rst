@@ -52,7 +52,7 @@ Conventions for Python test discovery
 * From those files, collect test items:
 
   * ``test`` prefixed test functions or methods outside of class.
-  * ``test`` prefixed test functions or methods inside ``Test`` prefixed test classes (without an ``__init__`` method). Methods decorated with ``@staticmethod`` and ``@classmethods`` are also considered.
+  * ``test`` prefixed test functions or methods inside ``Test`` prefixed test classes (without an ``__init__`` method). Methods decorated with ``@staticmethod`` and ``@classmethod`` are also considered.
 
 For examples of how to customize your test discovery :doc:`/example/pythoncollection`.
 
